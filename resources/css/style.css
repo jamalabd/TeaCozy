@@ -45,6 +45,23 @@
 
 
 
+.pic {
+  display: flex;
+  padding: 10px;
+  margin:0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.tealist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  height: 800px;
+  flex-direction: row;
+}
 
 
 .header img {
@@ -77,12 +94,13 @@
 
 
 .middle h2 {
-  margin: 100px 0px 0px 0px;
+  margin: 100px 0px 50px 0px;
 
 }
 
 .middle h4 {
   margin: 0;
+  padding-bottom: 40px;
 }
 
 
@@ -91,11 +109,16 @@ display: flex;
 width: 700px;
 justify-content: center;
 
+}
 
 
-
+.pic img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 15px;
 
 }
+
 
 
 
